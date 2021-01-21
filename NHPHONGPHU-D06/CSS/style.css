@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the header */
+  .header {
+      display: flex;
+      justify-content: center;
+      padding: 30px;
+      text-align: center;
+      height: 150px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+  }
+
+  .header h1
+  {
+      font-family: 'Montserrat', 'sans-serif';
+      color: whitesmoke;
+      font-size: xx-large;
+  }
+
+  h2
+  {
+      font-family: 'Montserrat', 'sans-serif';
+      color: black;
+      font-size: xx-large;
+      margin-top: 6px;
+  }
+  
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+      margin: 0px 10px 0px 10px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Montserrat', 'sans-serif';
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 25%;
+    height: 42rem;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 0px;
+    background-color: rgb(252, 238, 148);
+    
+    
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 75%;
+    height: 42rem;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 1px;
+    border-top-width: 0px;
+    border-style: solid;
+    background-color: rgb(255, 254, 220);
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #333;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+}
+
+.column.side a
+{
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 150%;
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+}
+
+.footer a
+{
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 150%;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+
+.column.side button
+{
+    margin-top: 10px;
+    padding: 15px;
+    width: 100%;
+    height: 10%;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: lightblue;
+    
+}
+
+#div-status
+{
+    background-color: lightseagreen;
+    padding: 1px 2px 1px 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.demo
+{
+    width: 100%;
+    height: 100%;
+}
+.footer p
+{
+    font-family: 'Montserrat', 'sans-serif';
+    color: white;
+}
+
+button
+{
+  font-family: 'Montserrat', 'sans-serif';
+    color: black;
+    font-size: 100%;
+}
+
+#game
+{
+  display: flex;
+  flex-direction: row;
+}
+
+#statusContainer
+{
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+#statusContent
+{
+  height: 50%;
+  width: 60%;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', 'sans-serif';
+  align-items: center;
+  flex-direction: column;
+}
+
+#statusContent > h3
+{
+  font-family: 'Montserrat', 'sans-serif';
+  line-height: 2rem;
+}
+
+#statusContent > span
+{
+  font-family: 'Montserrat', 'sans-serif';
+  margin: 1rem;
+}
+
+#statusContent > button
+{
+  font-family: 'Montserrat', 'sans-serif';
+  background-color: lightblue;
+}

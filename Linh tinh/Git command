@@ -1,0 +1,11 @@
+Github Student Pack
+
+git init .	:	khoi tao git
+git add *	:	them noi dung da sua
+git commit -m "Mota"	:	xac nhan them
+git log		: nhat ky git
+git status	: trang thai git
+git branch [name]	:	tao nhanh voi ten moi
+git checkout [name]	:	chuyen den con tro nhanh mong muon
+git branch -f [name] [location]
+git rebase [vị trí cần đến] [vị trí xuất phát] : tạo thư mục con dưới cha gốc

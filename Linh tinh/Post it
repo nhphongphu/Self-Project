@@ -1,0 +1,10 @@
+1. Hôm qua tôi đã làm gì: (20/01/2021)
+	+ Sử dụng và xây dựng Angular Services.
+	+ Hiểu rõ thiết kế DI trong Angular.
+	+ Xây dựng form nhập dữ liệu và kiểu dữ liệu được nhập bởi người dùng.
+	+ Hiểu và vận dụng Dynamic Components.
+	+ Hiểu và xây dựng Angular Elements.
+2. Hôm nay tôi sẽ làm gì: (21/01/2021)
+	+ Hiểu và vận dụng vòng đời của Component để tạo các Component hiệu quả hơn.
+	+ Thiết kế các Component phức tạp, đòi hỏi nghiệp vụ cao.
+	+ Áp dụng style vào Component.

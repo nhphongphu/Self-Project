@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 22%;
+  height: 700px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 78%;
+  background-color: #f1f1f1;
+  height: auto; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Nguyễn Hoàng Phong Phú</h1>
+  <p>Vị trí công việc: Lập trình viên</p>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <img src="../images/personal.jpg" alt="Personal Pic" height= "230"; width="260"; >
+      
+      <h2><u>THÔNG TIN CÁ NHÂN</u></h2>
+      <p>Ngày sinh: 09/03/1999</p>
+      <p>Giới tính: Nam</p>
+      <p>Điện thoại: 079 777 5366</p>
+      <p>Email: <a href="#">phongphu.official@gmail.com</a></p>
+      <p style="line-height: 30px;">Địa chỉ: 43 Đường số 27, Phường 6, Quận Gò Vấp, Tp.Hồ Chí Minh</p>
+    </ul>
+  </nav>
+  
+  <article>
+      <h2><u>MỤC TIÊU NGHỀ NGHIỆP</u></h2>
+      <p style="line-height: 30px;">Áp dụng những kinh nghiệm về kỹ thuật lập trình và sự hiểu biết về ngành để trở thành một lập trình viên chuyên nghiệp để mang đến nhiều giá trị cho doanh nghiệp.</p>
+
+      <h2><u>TRÌNH ĐỘ HỌC VẤN</u></h2>
+      <p>08/2017-2021 &nbsp;&nbsp;&nbsp;<strong>Trường Đại học Hoa Sen - Quận 1, TPHCM</strong></p>
+      <p>Chuyên ngành &nbsp;&nbsp;&nbsp;<strong>Công Nghệ Thông Tin</strong></p>
+      <p></p>
+      <p>08/2014-2017 &nbsp;&nbsp;&nbsp;<strong>Trường THPT Trần Hưng Đạo - Quận Gò Vấp, TPHCM</strong></p>
+      <p>Chuyên ngành &nbsp;&nbsp;&nbsp;<strong>Khối A1; Tốt nghiệp loại: Khá - 7,5/10.0</strong></p>
+      <p></p>
+
+      <h2><u>ĐÀO TẠO NGẮN HẠN</u></h2>
+      <p>Ngoại ngữ TA &nbsp;&nbsp;&nbsp;<strong>Chứng chỉ APTIS: 135/200</strong></p>
+      <p>Ngoại ngữ TA &nbsp;&nbsp;&nbsp;<strong>Chứng chỉ IELTS: 5.5/10.0</strong></p>
+      <p></p>
+
+      <h2><u>KỸ NĂNG</u></h2>
+      <ol>Kỹ năng giao tiếp, truyền thông</ol>
+      <p>Nhanh chóng nhìn nhận vấn đề đưa giải pháp giúp làm việc nhóm hiệu quả nhất.</p>
+
+      <h2><u>SỞ THÍCH</u></h2>
+      <p>Tìm hiểu các phần mềm, ứng dụng mới lấy thêm ý tưởng và kiến thức phát triển bản thân.</p>
+
+    
+    </article>
+</section>
+
+    <script src="../program01.js"></script>
+
+</body>
+</html>

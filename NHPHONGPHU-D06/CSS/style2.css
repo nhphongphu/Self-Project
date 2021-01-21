@@ -1,0 +1,27 @@
+#div1
+{
+background-color: lightblue;
+width: fit-content;
+padding: 20 50 20 50 ;
+margin: auto;
+font-size: 15px;
+}
+#div2
+{
+    background-color:lightsteelblue;
+    margin: auto;
+    padding: 20 50 20 50 ;
+    width: fit-content;
+    font-size: 15px;
+}
+#div3{
+    display:flex;
+    justify-content: center;
+}
+#div4{
+    display: flex;
+    justify-content: center;
+}
+#div5{
+    text-align: center;
+}

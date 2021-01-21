@@ -1,0 +1,78 @@
+body
+{
+    margin: 0%;
+}
+.header
+{
+    background-color: grey;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1
+{
+    color: white;
+}
+
+.topnav
+{
+    background-color: rgb(102, 102, 102);
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav a
+{
+    float: left;
+    text-align: center;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.topnav a:hover
+{
+    background-color: white;
+    color: rgb(102, 102, 102);
+}
+
+#navcontent-01
+{
+    display: flex;
+    justify-content: space-between;
+    width: 62.5rem;
+}
+
+.column
+{
+    width: 33.33%;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+}
+
+.row
+{
+    content: "";
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+.footer
+{
+    background-color: rgb(102, 102, 102);
+    padding: 20%;
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px 10px 10px 10px;
+
+}
